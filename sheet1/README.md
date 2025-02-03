@@ -1,8 +1,5 @@
 # Exercise 1 - Point-to-point communication
 
-If the equations don't render in your viewer, you can view them at
-least on Gitlab: https://version.aalto.fi/gitlab/manterm1/pps-example-codes/-/blob/main/exercise_sheets/sheet3/sheet.md
-
 ## Communication-time measurement 
 
 Implement a simple point-to-point communication involving just two MPI processes and measure the communication time as a function of data package size for three different combinations out of the spectrum of the MPI send/recv routines.
