@@ -38,14 +38,6 @@ overlapped with computation. Restart files are written and read with
 MPI I/O. See [code usage markdown instructions](CODE_USAGE.md) for more
 details on how to run the code.
 
-To build the code, you need to run:
-```bash
-module load gcc openmpi libpng
-cd pps-2024-exercises/exercise_sheets/sheet3
-make
-``` 
-Then run the code with `sbatch job.sh`
-
 Your tasks
 ========== 
 
@@ -62,9 +54,5 @@ point.
 2. performance increase?
 
 3. extended scale up?
-
-Both your code implementation and the results you collect in a short
-pdf description of the exercise project will be evaluated (please name
-it as report.pdf).
 
 
